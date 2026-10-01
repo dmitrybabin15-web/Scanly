@@ -1,0 +1,35 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.xcarchive/
+*.dSYM/
+
+# Swift Package Manager and dependency builds
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+Pods/
+Carthage/Build/
+
+# Local configuration and signing credentials
+.env
+.env.*
+!.env.example
+**/Secrets.xcconfig
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.p8
+*.pem
+*.key
+*.cer
+*.crt
+
+# macOS
+.DS_Store
